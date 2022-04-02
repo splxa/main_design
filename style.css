@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #E5E5E5;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-phone{
+    color: #727272;
+    font-size: 12px;
+    line-height: 16px;
+}
+.header-information{
+    color: #252525;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.menu__list{
+    display: flex;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 24px;
+}
+li{
+    list-style-type: none;
+}
+.menu__list-link{
+    color: #252525;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+
+
+
+
