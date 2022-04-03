@@ -5,8 +5,10 @@
 .body{
     background-color: #E5E5E5;
 }
+
 .container{
     max-width: 1220px;
+    margin: 0 auto;
 }
 .header__inner{
     display: flex;
@@ -41,6 +43,12 @@ li{
     text-decoration: none;
 }
 
+.footer-top a {
+    color: #ddd !important;
+    font-size: 16px;
+}
+
+
 /*background: url(../img/2013/bg-texture.png) repeat fixed;*/
 /* before block footer*/
 .footer{
@@ -58,14 +66,12 @@ li{
     /*background-color: #fafafa;*/
     border-top: 1px solid #ccc;
     min-height: 46px;
+
+
 }
 /*  footer */
-.footer-top a {
-    color: #ddd !important;
-    font-size: 16px;
-}
 
-.footer-top {
+.footer{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     line-height: 1.42857;
     -webkit-font-smoothing: antialiased;
@@ -78,6 +84,21 @@ li{
     padding-top: 2em;
     padding-bottom: 2em;
 }
+.footer-description-logo {
+    position: absolute;
+    height: 84px;
+    left: 0;
+    right: 0;
+    top: calc(50% - 84px/2 + 66px);
 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+
+    color: #FFFFFF;
+}
 
 
