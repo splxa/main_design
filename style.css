@@ -16,14 +16,14 @@
     align-items: center;
 }
 .header-phone{
-    color: #727272;
-    font-size: 12px;
-    line-height: 16px;
-}
-.header-information{
     color: #252525;
     font-size: 22px;
     line-height: 24px;
+}
+.header-information{
+    color: #727272;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .menu__list{
@@ -45,7 +45,8 @@ li{
 
 
 /* style for blog-card-2*/
-.blog-card-2{
+
+.blog-card{
     display: grid;
     grid-template-columns: 7fr 3fr;
 }
@@ -53,7 +54,24 @@ li{
     padding: 25px;
     background: #F5F5F5;
 }
-
+.text-header{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #252525;
+}
+.card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    color: #434343;
+}
 
 
 .footer-top a {
